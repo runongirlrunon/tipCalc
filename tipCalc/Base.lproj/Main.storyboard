@@ -26,28 +26,46 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bk8-6C-kDa">
                                 <rect key="frame" x="252" y="94" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="How much would you like to tip?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-At-nKg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much would you like to tip?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSj-At-nKg">
                                 <rect key="frame" x="177" y="132" width="246" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcF-Qg-iC8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcF-Qg-iC8">
                                 <rect key="frame" x="285" y="161" width="30" height="30"/>
                                 <state key="normal" title="20%"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="for-Fs-PWA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="for-Fs-PWA">
                                 <rect key="frame" x="231" y="161" width="30" height="30"/>
                                 <state key="normal" title="15%"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w5-a1-OSW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w5-a1-OSW">
                                 <rect key="frame" x="339" y="161" width="30" height="30"/>
                                 <state key="normal" title="25%"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip this much:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-Z5-uJe">
+                                <rect key="frame" x="246" y="199" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="[tip amount]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiF-zd-c0H">
+                                <rect key="frame" x="253" y="228" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Final price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGi-gr-y7K">
+                                <rect key="frame" x="258" y="257" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="[final price]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Nu-Mb-R1O">
-                                <rect key="frame" x="257" y="199" width="87" height="21"/>
+                                <rect key="frame" x="257" y="286" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -56,10 +74,24 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UIG-Kc-dQW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Bf-ct-4ln"/>
+                            <constraint firstItem="for-Fs-PWA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="161" id="7dB-YF-EWr"/>
+                            <constraint firstItem="8w5-a1-OSW" firstAttribute="leading" secondItem="GcF-Qg-iC8" secondAttribute="trailing" constant="24" id="At1-xx-ZVi"/>
+                            <constraint firstItem="UIG-Kc-dQW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BhH-J5-YlX"/>
+                            <constraint firstItem="for-Fs-PWA" firstAttribute="baseline" secondItem="GcF-Qg-iC8" secondAttribute="baseline" id="CA9-ma-4IG"/>
                             <constraint firstItem="bk8-6C-kDa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fzo-qs-SbC"/>
+                            <constraint firstItem="tGi-gr-y7K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJg-VL-2g8"/>
                             <constraint firstItem="4Nu-Mb-R1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lnz-iQ-ho9"/>
-                            <constraint firstItem="GcF-Qg-iC8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mKE-Cy-kP5"/>
+                            <constraint firstItem="hs1-Z5-uJe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fVX-96-hDc"/>
+                            <constraint firstItem="GcF-Qg-iC8" firstAttribute="centerX" secondItem="fSj-At-nKg" secondAttribute="centerX" id="fpo-Lt-czZ"/>
+                            <constraint firstItem="GcF-Qg-iC8" firstAttribute="baseline" secondItem="8w5-a1-OSW" secondAttribute="baseline" id="hXX-mG-XWO"/>
+                            <constraint firstItem="bk8-6C-kDa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i61-My-rO6"/>
+                            <constraint firstItem="hs1-Z5-uJe" firstAttribute="top" secondItem="for-Fs-PWA" secondAttribute="bottom" constant="8" symbolic="YES" id="n1F-CX-f9B"/>
                             <constraint firstItem="fSj-At-nKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ocC-n6-KiH"/>
+                            <constraint firstItem="OiF-zd-c0H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pNh-vB-wWz"/>
+                            <constraint firstItem="for-Fs-PWA" firstAttribute="top" secondItem="fSj-At-nKg" secondAttribute="bottom" constant="8" symbolic="YES" id="tb0-dQ-J9b"/>
+                            <constraint firstItem="fSj-At-nKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uDJ-Y5-9eJ"/>
+                            <constraint firstItem="GcF-Qg-iC8" firstAttribute="leading" secondItem="for-Fs-PWA" secondAttribute="trailing" constant="24" id="x6d-WX-7ak"/>
+                            <constraint firstItem="4Nu-Mb-R1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xsY-R9-AIP"/>
                         </constraints>
                     </view>
                 </viewController>
